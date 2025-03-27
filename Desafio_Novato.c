@@ -11,13 +11,13 @@
 
     int main(){
     // Variáveis de cada atributo:
-        char estado1[20], estado2[20];
-        char codigo_carta1[4], codigo_carta2[3];
-        char cidade1[20], cidade2[20];
-        int populacao1, populacao2;
-        float area1, area2;
-        float pib1, pib2;
-        int n_pontos_turisticos1, n_pontos_turisticos2;
+    char estado1[20], estado2[20];
+    char codigo_carta1[4], codigo_carta2[3];
+    char cidade1[20], cidade2[20];
+    int populacao1, populacao2;
+    float area1, area2;
+    float pib1, pib2;
+    int n_pontos_turisticos1, n_pontos_turisticos2;
     
     // Limpar tela para iniciar programa
     system("clear");
@@ -97,14 +97,5 @@
     printf("PIB: %e\n bilhões de reais", pib2);
     printf("Número de pontos turísticos: %d\n\n", n_pontos_turisticos2);
     
-
     return 0;
     }
-    
-    // Principais especificadores utilizados:
-    // %d: Imprime um inteiro no formato decimal.
-    // %i: Equivalente a %d.
-    // %f: Imprime um número de ponto flutuante no formato padrão.
-    // %e: Imprime um número de ponto flutuante na notação científica.
-    // %c: Imprime um único caractere.
-    // %s: Imprime uma cadeia (string) de caracteres.
